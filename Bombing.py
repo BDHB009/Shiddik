@@ -1,3 +1,5 @@
+import requests
+
 number=str(input(" Enter The Number👉 : "))
 
 amount=int(input(" Enter The Amount👉 : "))
