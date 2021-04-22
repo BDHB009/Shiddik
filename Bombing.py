@@ -1,4 +1,10 @@
-print ("welcome to BFHB")
+banner = """  ____   _____   _    _  ____  
+|  _ \ |  __ \ | |  | ||  _ \ 
+| |_) || |  | || |__| || |_) |
+|  _ < | |  | ||  __  ||  _ < 
+| |_) || |__| || |  | || |_) |
+|____/ |_____/ |_|  |_||____/ """
+print(banner)
 
 import requests
 
@@ -12,4 +18,4 @@ for i in range(amount):
 	
 	requests.get(api)
 	
-	print(str(i+1)+" ✉️➡️BDHB SMS Sent😈")
+	print(str(i+1)+" ☑️BDHB SMS Sent😈")
