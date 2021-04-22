@@ -1,3 +1,5 @@
+print ("welcome to BFHB")
+
 import requests
 
 number=str(input(" Enter The Number👉 : "))
@@ -10,4 +12,4 @@ for i in range(amount):
 	
 	requests.get(api)
 	
-	print(str(i+1)+" BDHB SMS Sent😈")
+	print(str(i+1)+" ✉️➡️BDHB SMS Sent😈")
